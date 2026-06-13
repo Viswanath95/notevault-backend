@@ -14,7 +14,14 @@ const app = express();
 app.use(bodyParser.json());
 
 // CORS
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      'http://localhost:5173',
+      'https://notevault-frontend.vercel.app'
+    ]
+  })
+);
 
 app.use('/api/auth', authRoutes);
 app.use('/api/notes', noteRoutes);
