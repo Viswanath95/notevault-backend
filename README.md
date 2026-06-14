@@ -2,6 +2,9 @@ NoteVault — Backend
 
 🔗 **Live API:** [https://notevault-backend-mmn5.onrender.com/api](https://notevault-backend-mmn5.onrender.com/api)
 
+> ⚠️ Hosted on Render's free tier. The first request after inactivity
+> may take 30–60 seconds to respond while the server spins up.
+
 A RESTful API for the NoteVault notes app, built with Express.js and MongoDB (Mongoose). Provides JWT-based authentication and full CRUD for notes, including search and pagination.
 
 ## Screenshots
