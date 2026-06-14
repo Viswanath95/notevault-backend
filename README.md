@@ -1,6 +1,18 @@
 NoteVault — Backend
 
+🔗 **Live API:** [https://notevault-backend-mmn5.onrender.com/api](https://notevault-backend-mmn5.onrender.com/api)
+
 A RESTful API for the NoteVault notes app, built with Express.js and MongoDB (Mongoose). Provides JWT-based authentication and full CRUD for notes, including search and pagination.
+
+## Screenshots
+
+![Register](./screenshots/register.png)
+![Login](./screenshots/login.png)
+![Create Notes](./screenshots/create-notes.png)
+![Fetch Notes - Pagination](./screenshots/fetchnotes-pagination.png)
+![Edit Note](./screenshots/update-note.png)
+![Search Notes](./screenshots/search-notes.png)
+![Delete Note](./screenshots/delete-note.png)
 
 
 Features
@@ -56,7 +68,7 @@ MongoDB instance (local or Atlas)
 
 Installation
 
-bashgit clone https://github.com/Viswanath95/notevault-backend.git
+git clone https://github.com/Viswanath95/notevault-backend.git
 cd notevault-backend
 npm install
 
@@ -72,9 +84,9 @@ JWT_KEY=your_jwt_secret_key
 
 Run the server
 
-bashnpm start
+npm start
 
-The API will be available at http://localhost:5000/api.
+The API will be available at https://notevault-backend-mmn5.onrender.com/api.
 
 API Reference
 
